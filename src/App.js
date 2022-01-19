@@ -6,6 +6,7 @@ import Home from './components/Home/Home';
 import Footer from './components/Footer/index'
 import CartaFull from './components/Carta full/CartaFull';
 import { GlobalStyle } from "./globalStyles";
+import Hamburguesas from "./components/Hambuguesas/Hamburguesas";
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/cartacompleta" element={<CartaFull/>}/>
+          <Route exact path="/hamburguesas" element={<Hamburguesas/>}/>
         </Routes>
         <Footer/>
     </Router>

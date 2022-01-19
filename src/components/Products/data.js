@@ -59,3 +59,54 @@ export const productDataTwo = [
       price: "4.99€",
   },
 ];
+
+export const hamburguesas = [
+  {
+    img: product1,
+    alt: "Hamburger",
+    name: "Hamburguesa",
+    desc:
+      "queso pan carne salsa salsa salsa bacon carne queso",
+    price: "9.99€",
+  },
+  {
+    img: product2,
+    alt: "Hamburger",
+    name: "Hamburguesa",
+    desc:
+    "queso pan carne salsa salsa salsa bacon carne queso",
+      price: "9.99€",
+  },
+  {
+    img: product3,
+    alt: "Hamburger",
+    name: "Hamburguesa",
+    desc:
+    "queso pan carne salsa salsa salsa bacon carne queso",
+      price: "9.99€",
+  },
+  {
+    img: product1,
+    alt: "Hamburger",
+    name: "Hamburguesa",
+    desc:
+      "queso pan carne salsa salsa salsa bacon carne queso",
+    price: "9.99€",
+  },
+  {
+    img: product2,
+    alt: "Hamburger",
+    name: "Hamburguesa",
+    desc:
+    "queso pan carne salsa salsa salsa bacon carne queso",
+      price: "9.99€",
+  },
+  {
+    img: product3,
+    alt: "Hamburger",
+    name: "Hamburguesa",
+    desc:
+    "queso pan carne salsa salsa salsa bacon carne queso",
+      price: "9.99€",
+  },
+];

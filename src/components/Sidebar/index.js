@@ -17,11 +17,11 @@ const Sidebar = ({ isOpen, toggle }) => {
         <CloseIcon />
       </Icon>
       <SidebarMenu>
-        <SidebarLink to="/">Bebidas</SidebarLink>
-        <SidebarLink to="/">Entrantes</SidebarLink>
-        <SidebarLink to="/">Hambuguesas</SidebarLink>
-        <SidebarLink to="/">Sandwiches</SidebarLink>
-        <SidebarLink className="sidebar-dessert" to="/">Postres</SidebarLink>
+      <SidebarLink to="/">Inicio</SidebarLink>
+        <SidebarLink to="/hamburguesas">Bebidas</SidebarLink>
+        <SidebarLink to="/hamburguesas">Entrantes</SidebarLink>
+        <SidebarLink to="/hamburguesas">Hambuguesas</SidebarLink>
+        <SidebarLink className="sidebar-dessert" to="/hamburguesas">Postres</SidebarLink>
         <img className="logo-sidebar" src="/imagenes/jou-PhotoRoom.png" alt="logo 2" width="250"/>
         <SidebarLink to="/">Quienes somos</SidebarLink>
       <SidebarLink to="/">Galería</SidebarLink>

@@ -6,9 +6,9 @@ import {
   HeroContainer,
   HeroContent,
   HeroItems,
-  // HeroH1,
-  // HeroP,
-  // HeroBtn,
+  HeroH1,
+  HeroP,
+  HeroBtn,
 } from "./HeroElements";
 
 const Hero = () => {
@@ -25,6 +25,11 @@ const Hero = () => {
       <HeroContent>
         <HeroItems>
           <img src="/imagenes/whitelogo-PhotoRoom.png" alt="logo" className="logo-img"/>
+          {/* <HeroBtn>Haz tú reserva!</HeroBtn> */}
+          <div className="button-container">
+          <a href="tel:+346262626262"><button className="button-landing" href="tel:+346262626262">Llámanos </button></a>
+          <button className="button-landing">Carta </button>
+          </div>
         </HeroItems>
       </HeroContent>
     </HeroContainer>

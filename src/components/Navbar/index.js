@@ -6,7 +6,7 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav>
       <p className="white" >C/ Falsa 123</p>
-      <p className="white">666777888</p>
+      {/* <p className="white">666777888</p> */}
         <NavLink to="/"></NavLink>
         <NavIcon onClick={toggle}>
           <p className="menu-toggle">Menú</p>

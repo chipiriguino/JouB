@@ -11,7 +11,26 @@
 .white{
     color:white;
     margin:auto 0 auto 0;
+    display:flex;
+    flex:auto;
+    margin-left:10px
 }
 .menu-toggle{
     margin-top:13px
+}
+.button-landing{
+    width:12rem;
+    height:5rem;
+    margin-left:35px;
+    border-radius:50%;
+    background-color: black;
+    border:white 2px solid;
+    font-size:24px;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    margin-top:13px
+}
+.button-container{
+   margin-bottom: -130px;
 }
