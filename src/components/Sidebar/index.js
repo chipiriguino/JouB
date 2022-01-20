@@ -6,9 +6,14 @@ import {
   CloseIcon,
   SidebarMenu,
   SidebarLink,
-  SidebarRoute,
-  SideBtnWrap,
 } from "./SidebarElements";
+import {
+  FaInstagram,
+} from "react-icons/fa";
+import {
+  SocialIconLink,
+} from "../Footer/FooterElements";
+
 
 const Sidebar = ({ isOpen, toggle }) => {
   return (
@@ -25,8 +30,13 @@ const Sidebar = ({ isOpen, toggle }) => {
         <img className="logo-sidebar" src="/imagenes/jou-PhotoRoom.png" alt="logo 2" width="250"/>
         <SidebarLink to="/">Quienes somos</SidebarLink>
       <SidebarLink to="/">Galería</SidebarLink>
+      <div className="footer-sidebar">
       <p>C/ falsa 123 Santa Pola</p>
       <p>Teléfono: 612345678</p>
+      <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+                <FaInstagram className="black-insta" />
+              </SocialIconLink>
+      </div>
       </SidebarMenu>
    
       {/* <SideBtnWrap>
