@@ -7,6 +7,7 @@ import Footer from './components/Footer/index'
 import CartaFull from './components/Carta full/CartaFull';
 import { GlobalStyle } from "./globalStyles";
 import Hamburguesas from "./components/Hambuguesas/Hamburguesas";
+import Gallery from "./components/Gallery/Gallery"
 
 
 
@@ -25,6 +26,7 @@ const App = () => {
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/cartacompleta" element={<CartaFull/>}/>
           <Route exact path="/hamburguesas" element={<Hamburguesas/>}/>
+          <Route exact path="/gallery" element={<Gallery/>}/>
         </Routes>
         <Footer/>
     </Router>

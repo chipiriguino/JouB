@@ -29,7 +29,7 @@ const Sidebar = ({ isOpen, toggle }) => {
         <SidebarLink className="sidebar-dessert" to="/hamburguesas">Postres</SidebarLink>
         <img className="logo-sidebar" src="/imagenes/jou-PhotoRoom.png" alt="logo 2" width="250"/>
         <SidebarLink to="/">Quienes somos</SidebarLink>
-      <SidebarLink to="/">Galería</SidebarLink>
+      <SidebarLink to="/gallery">Galería</SidebarLink>
       <div className="footer-sidebar">
       <p>C/ falsa 123 Santa Pola</p>
       <p>Teléfono: 612345678</p>
