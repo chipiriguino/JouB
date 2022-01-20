@@ -66,6 +66,11 @@ export const SidebarLink = styled(Link)`
     margin-top:20px;
     font-size:18px
   }
+  @media screen and (max-height: 670px) {
+    
+       margin-top:7px
+  
+  }
 `;
 
 export const SideBtnWrap = styled.div`

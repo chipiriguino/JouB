@@ -17,6 +17,11 @@
         width:150px
      }
   }
+  @media screen and (max-height: 670px) {
+    .logo-sidebar{
+        width:120px
+     }
+  }
 .sidebar-dessert{
     margin-top:34px !important
 }
