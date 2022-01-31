@@ -25,6 +25,15 @@
 .sidebar-dessert{
     margin-top:34px !important
 }
+
+@media screen and (max-width: 770px) {
+    .hBzjcB{
+        width: 62% !important;
+    }
+  }
+
+/* .hBzjcB{
+    width: 32% !important;} */
 .footer-sidebar{
     margin-top:30px
 }
