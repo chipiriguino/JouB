@@ -2,9 +2,9 @@ import product1 from "../../images/hamburger.jpeg";
 import product2 from "../../images/hamburger.jpeg";
 import product3 from "../../images/hamburger.jpeg";
 
-import sweet1 from "../../images/sweet3.jpg";
-import sweet2 from "../../images/sweet-2.jpg";
-import sweet3 from "../../images/sweet-3.jpg";
+import sweet1 from "../../images/sweet.jpg";
+import sweet2 from "../../images/sweet.jpg";
+import sweet3 from "../../images/sweet.jpg";
 
 export const productData = [
   {
