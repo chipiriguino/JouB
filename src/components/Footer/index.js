@@ -2,11 +2,6 @@ import React from "react";
 import {
   FaFacebook,
   FaInstagram,
-  FaYoutube,
-  FaTwitter,
-  FaLinkedin,
-  FaGithubAlt,
-  FaGithub,
 } from "react-icons/fa";
 import {
   FooterContainer,
@@ -17,6 +12,7 @@ import {
   SocialIcons,
   SocialIconLink,
 } from "./FooterElements";
+import Animation from '../Animation/Animation'
 
 const Footer = () => {
   return (
@@ -24,6 +20,7 @@ const Footer = () => {
       <FooterWrap>
         <SocialMedia>
           <SocialMediaWrap>
+           
             <SocialLogo to="/">Joe burguer</SocialLogo>
             <SocialIcons>
               <SocialIconLink href="/" target="_blank" aria-label="Facebook">
