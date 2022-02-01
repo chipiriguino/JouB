@@ -1,11 +1,53 @@
 
-  
+  /* VIDEO */
+.bg-video-wrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 52vh;
+  background: url(https://designsupply-web.com/samplecontent/vender/codepen/20181014.png) no-repeat center center/cover;
+}
+video {
+  min-width: 100%;
+  min-height: 52vh;
+  z-index: 1;
+}
+.button-video{
+  border-radius:21px;
+  padding:10px;
+  background-color:yellow;
+  font-weight:bold;
+  border-color:white
+}
+.overlay {
+  width: 100%;
+  height: 80vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(45deg, rgba(0,0,0,.3) 3%, rgba(0,0,0,.3) 3%);
+  background-size: 3px 3px;
+  z-index: 2;
+}
+.h1-video {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+  width: 80%;
+  height: 50px;
+}
   /* *, *:before, *:after {
     box-sizing: border-box;
     position: relative;
   }
    */
-  .ball {
+  /* .ball {
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -387,7 +429,7 @@
             height: 10%;
             margin: 0;
             padding: 0;
-  }
+  } */
   
   /* html, body {
     background: #FFE16E;

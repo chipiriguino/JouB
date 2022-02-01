@@ -110,3 +110,54 @@ export const hamburguesas = [
       price: "9.99€",
   },
 ];
+
+export const postres = [
+  {
+    img: sweet2,
+    alt: "Donuts",
+    name: "Brownie",
+    desc:
+    "queso pan carne salsa salsa salsa bacon carne queso",
+    price: "4.99€",
+  },
+  {
+    img: sweet3,
+    alt: "Ice Cream",
+    name: "Brownie",
+    desc:
+    "queso pan carne salsa salsa salsa bacon carne queso",
+      price: "4.99€",
+  },
+  {
+    img: sweet1,
+    alt: "Brownie",
+    name: "Brownie",
+    desc:
+    "queso pan carne salsa salsa salsa bacon carne queso",
+      price: "4.99€",
+  },
+  {
+    img: sweet2,
+    alt: "Donuts",
+    name: "Brownie",
+    desc:
+    "queso pan carne salsa salsa salsa bacon carne queso",
+    price: "4.99€",
+  },
+  {
+    img: sweet3,
+    alt: "Ice Cream",
+    name: "Brownie",
+    desc:
+    "queso pan carne salsa salsa salsa bacon carne queso",
+      price: "4.99€",
+  },
+  {
+    img: sweet1,
+    alt: "Brownie",
+    name: "Brownie",
+    desc:
+    "queso pan carne salsa salsa salsa bacon carne queso",
+      price: "4.99€",
+  },
+];

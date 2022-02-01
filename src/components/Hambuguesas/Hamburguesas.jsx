@@ -2,7 +2,7 @@ import React from 'react';
 import {hamburguesas} from "../Products/data";
 import Products from '../Products/index';
 
-export default function Hamburguesas() {
+export default function Postres() {
     return (
         <div>
 
