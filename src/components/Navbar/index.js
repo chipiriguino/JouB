@@ -5,7 +5,7 @@ const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
-      <p className="white" >C/ Falsa 123</p>
+      <p className="white" >C/ Falsa 1234</p>
       {/* <p className="white">666777888</p> */}
         <NavLink to="/"></NavLink>
         <NavIcon onClick={toggle}>
