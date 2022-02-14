@@ -4,14 +4,16 @@ export default class Video extends Component {
     render() {
         return (
             <div>
-                  <div className="bg-video-wrap">
-    <video src="/imagenes/pexels-italo-bicca-6756617.mp4" loop muted autoPlay>
-    </video>
-    <div >
-    </div>
-    <h1 className="h1-video"><button className="button-video">Haz tú reserva</button></h1>
+           <div className="bg-video-wrap"
+          dangerouslySetInnerHTML={{
+            __html: `<video className="app__backgroundVideo" autoplay loop muted playsinline>
+      <source src="/imagenes/pexels-italo-bicca-6756617.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+</video>`,
+          }}
+        />
+
   </div>
-            </div>
         )
     }
 }
