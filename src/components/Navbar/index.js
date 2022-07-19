@@ -9,7 +9,7 @@ const Navbar = ({ toggle }) => {
       {/* <p className="white">666777888</p> */}
         <NavLink to="/"></NavLink>
         <NavIcon onClick={toggle}>
-          <p className="menu-toggle">Menú</p>
+          <p className="menu-toggle">MENU</p>
           {/* <img src="/imagenes/Captura de pantalla 2022-01-19 a las 12.19.46-PhotoRoom.png" alt="logo 2" width="50"/> */}
           {/* <Bars /> */}
         </NavIcon>
